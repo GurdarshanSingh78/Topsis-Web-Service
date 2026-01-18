@@ -9,7 +9,7 @@ from email import encoders
 from flask import Flask, request, render_template, send_file
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = 'uploads'
+app.config['UPLOAD_FOLDER'] = '/tmp'
 
 SENDER_EMAIL = "kahlonnoor0022@gmail.com"
 SENDER_PASSWORD = "akmkwarnweputrqz"
