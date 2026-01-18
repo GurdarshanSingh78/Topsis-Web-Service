@@ -2,7 +2,7 @@
 
 This is a web-based application that calculates the **TOPSIS score** (Technique for Order of Preference by Similarity to Ideal Solution) for a given dataset. Users can upload a CSV/Excel file, specify weights and impacts, and receive the results via email.
 
-**Live Demo:** [Click Here to View App](https://your-app-name.vercel.app)
+**Live Demo:** [https://topsis-web-service.vercel.app/](https://topsis-web-service.vercel.app/)
 
 ## Features
 * **Upload Support:** Accepts `.csv` and `.xlsx` files.
@@ -27,7 +27,7 @@ If you want to run this project on your own computer:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/Topsis-Web-Service.git](https://github.com/YOUR_USERNAME/Topsis-Web-Service.git)
+    git clone [https://github.com/GurdarshanSingh78/Topsis-Web-Service.git](https://github.com/GurdarshanSingh78/Topsis-Web-Service.git)
     cd Topsis-Web-Service
     ```
 
@@ -37,7 +37,7 @@ If you want to run this project on your own computer:
     ```
 
 3.  **Configure Email:**
-    Open `app.py` and update the `SENDER_EMAIL` and `SENDER_PASSWORD` with your own credentials (use an App Password for Gmail).
+    Open `app.py` and update the `SENDER_EMAIL` and `SENDER_PASSWORD` with your own credentials.
 
 4.  **Run the application:**
     ```bash
@@ -55,4 +55,4 @@ If you want to run this project on your own computer:
 * **Vercel** (Deployment)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

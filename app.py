@@ -11,8 +11,8 @@ from flask import Flask, request, render_template, send_file
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = '/tmp'
 
-SENDER_EMAIL = "kahlonnoor0022@gmail.com"
-SENDER_PASSWORD = "akmkwarnweputrqz"
+SENDER_EMAIL = os.getenv("SENDER_EMAIL") 
+SENDER_PASSWORD = os.getenv("SENDER_PASSWORD")
 
 if not os.path.exists(app.config['UPLOAD_FOLDER']):
     os.makedirs(app.config['UPLOAD_FOLDER'])
